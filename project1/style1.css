@@ -1,0 +1,36 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(187, 168, 195);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://imgs.search.brave.com/UklrYlKUFOqXDgTunyc3x2Agnq2HTfgqrZi3cPwT7ww/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9hYnN0cmFjdC1j/b2xvci1wYXN0ZWwt/YmFja2dyb3VuZC1z/b2Z0LXNreS13aXRo/LWNsb3VkLWJhY2tn/cm91bmQtcGFzdGVs/LWNvbG9yXzY1Mjkt/NTQ2LmpwZz9zZW10/PWFpc19oeWJyaWQ");
+  background-size: cover;
+  background-position: center;
+}
+form {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+#message{
+    padding: 5px 50px ;
+}
+
+button {
+  border-radius: 7px;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: 1px solid black;
+  cursor: pointer;
+}

@@ -12,7 +12,7 @@ including:
 ## Features
 - Resposive design for all Device Screen Sizes.
 - Validation for required fields (name, email, and terms).
-- Clean and professional UI.
+- Clean and Little professional UI.
 
 ## How to Run
 1. Clone the Repository.

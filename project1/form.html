@@ -3,25 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Basic-Form</title>
+    <link rel="stylesheet" href="style1.css" />
   </head>
   <body>
-    <h1>contact Form</h1>
-    <form>
-      <div id="name">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" />
-      </div>
+    <header>
+      <h1>Contact Form :</h1>
       <br />
-      <div id="email">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" />
-      </div>
-
-      <div id="message">
-        <label for="message">Message</label>
-        <textarea name="message" id="message" rows="4"></textarea>
-      </div>
-    </form>
+      <p>Fill out this form below to get in touch!</p>
+      <br />
+    </header>
+    <main>
+      <form>
+        <div id="name">
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <br />
+        <div id="email">
+          <label for="email">E-mail: </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your e-mail"
+            required
+          />
+        </div>
+        <br />
+        <div id="message">
+          <label for="message">Message:- <br /></label>
+          <textarea name="message" id="message" rows="4"></textarea>
+        </div>
+        <div id="option">
+          <br />
+          <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="Male" name="gender" value="male" />
+            <label for="Male">male</label>
+            <input type="radio" id="Female" name="gender" value="Female" />
+            <label for="Female">female</label>
+            <input type="radio" id="Other" name="gender" value="Other" />
+            <label for="Other">Other</label>
+          </fieldset>
+        </div>
+        <div id="terms">
+          <br />
+          <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required />
+            I agree to the terms and conditions
+          </label>
+        </div>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
   </body>
 </html>
