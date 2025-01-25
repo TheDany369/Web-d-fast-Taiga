@@ -3,25 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Navbar</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Simple Responsive Navigation Bar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
   <body>
     <nav id="navbar">
-      <div id="logo">MySite</div>
+      <div class="logo">
+        <i class="ri-more-2-fill">
+          <ul class="more">
+            <li><a href="#prof">my profile</a></li>
+            <li><a href="#cour">all courses</a></li>
+            <li><a href="#tuto">tutoros</a></li>
+          </ul>
+        </i>
+        HDX
+      </div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li class="dropdown">
-          <a href="#">Services</a>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li>
+          <a href="#services">Services</a>
           <ul class="dropdown-menu">
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">App Development</a></li>
-            <li><a href="#">SEO</a></li>
+            <li><a href="#web">Web Development</a></li>
+            <li><a href="#app">App Development</a></li>
+            <li><a href="#design">Design</a></li>
           </ul>
         </li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+
+    <main>
+      <h1>Welcome to Your Website</h1>
+      <p>This is a simple navigation bar !</p>
+    </main>
   </body>
 </html>
