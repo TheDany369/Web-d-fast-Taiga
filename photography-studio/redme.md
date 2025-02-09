@@ -16,21 +16,25 @@ A stunning, responsive photography studio landing page featuring modern design e
 ## ⚡ Key Features
 
 - **Elegant Hero Section**
+
   - Dynamic split layout
   - Engaging typography
   - Call-to-action buttons with hover effects
 
 - **Professional Services Showcase**
+
   - Interactive service cards
   - Transform animations on hover
   - Clean grid layout
 
 - **Stunning Gallery**
+
   - Responsive image grid
   - Smooth scaling transitions
   - Professional portfolio display
 
 - **Statistics & Achievements**
+
   - Clean number displays
   - Engaging icon integration
   - Grid-based layout
@@ -43,12 +47,14 @@ A stunning, responsive photography studio landing page featuring modern design e
 ## 💻 Technical Features
 
 ### Responsive Design
+
 - **Desktop-First Approach**
 - **Mobile-Friendly Layout**
 - **Cross-Browser Compatibility**
 - **Flexible Component Design**
 
 ### CSS Implementation
+
 ```css
 /* Key styling features */
 * {
@@ -149,7 +155,7 @@ GitHub Profile:
 https://github.com/TheDany369/
 
 LinkedIn Profile:
-https://in.linkedin.com/in/himanshu-dhaila-97717326b 
+https://in.linkedin.com/in/himanshu-dhaila-97717326b
 
 🌟 Acknowledgments
 Part of Web-d-fast-Taiga project collection
@@ -177,3 +183,4 @@ This README.md:
 5. Maintains transparency while showcasing your skills
 6. Uses emojis and formatting for better readability
 7. Includes comprehensive sections for future contributors
+```
